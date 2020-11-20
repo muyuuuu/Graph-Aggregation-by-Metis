@@ -4,6 +4,8 @@
 
 和我可爱的[师姐](https://github.com/dajiaozhu)一起开发的(其余工作正在进行中，原仓库目前不便开源)。
 
+代码在`Algorithm`文件夹下，数据请自己下载并放到对应位置，太大了我就不传上来了。
+
 # 依赖
 
 - `python: 3.7`
@@ -13,7 +15,7 @@
 
 能将[上万节点的图](http://networkrepository.com/email-EU.php)处理成如下所示的模样：
 
-融合到200个节点：
+融合到100个节点：
 ![](figure/2.jpg)
 
 融合到7个节点：
