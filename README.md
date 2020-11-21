@@ -12,8 +12,13 @@
 
 # 依赖
 
-- `python: 3.7`
-- `graph-tool: 2.35`(建议用`conda`安装)
+- `python: 3.6`
+- `graph-tool: 2.33`(建议用`conda`安装)
+
+## 对比算法的依赖
+
+- `networkx: 2.3`
+- `metis: 0.2a4`
 
 # 结果
 
@@ -24,6 +29,16 @@
 
 融合到7个节点：
 ![](figure/1.jpg)
+
+## 打印点平衡率与边割率
+
+每一步融合都能打印点平衡率和边割率：
+
+![](figure/4.png)
+
+# 性能
+
+目前性能超过当前`pip install metis`后得到的第三方库的性能，对比详见：https://muyuuuu.github.io/2020/11/20/Metis/
 
 # 实现步骤
 
