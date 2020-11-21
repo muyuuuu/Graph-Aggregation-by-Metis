@@ -19,6 +19,7 @@
 
 - `networkx: 2.3`
 - `metis: 0.2a4`
+- `pymetis: 2020.1`
 
 # 结果
 
@@ -38,7 +39,11 @@
 
 # 性能
 
+注：我们算法的目的是实现图融合，并打印点平衡率与边割率。而[metis](https://metis.readthedocs.io/en/latest/)和[pymetis](https://github.com/inducer/pymetis)的目的都是图划分，有一些差距在。
+
 目前性能超过当前`pip install metis`后得到的第三方库的性能，对比详见：https://muyuuuu.github.io/2020/11/20/Metis/
+
+与`pip install pymetis`后得到的第三方库性能还有一些差距，**前路漫漫，还需努力。**
 
 # 实现步骤
 
