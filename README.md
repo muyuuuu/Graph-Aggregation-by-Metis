@@ -2,7 +2,7 @@
 
 # Introduction
 
-An algorithm of huge graph aggregation based on metis. 
+An algorithm of huge graph aggregation based on metis. You can download the paper [here](http://glaros.dtc.umn.edu/gkhome/node/1186).
 
 Developing this algorithm with my [partner](https://github.com/dajiaozhu), who has proposed some effective ideas about finding twins, finding relatives and contraction. The original repository will be opened until the paper is published, therefore she is not a contributor in this repository.
 
