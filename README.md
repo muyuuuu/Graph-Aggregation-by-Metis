@@ -34,7 +34,7 @@ After one contract phase, we can print the load balance and edge cut:![](figure/
 
 # Performance
 
-Our algorithm is better than [metis](https://metis.readthedocs.io/en/latest/) and slower than [pymetis](https://github.com/inducer/pymetis), [here](https://muyuuuu.github.io/2020/11/20/Metis/) is more details.
+Our algorithm is a lot better than [metis](https://metis.readthedocs.io/en/latest/) and slightly slower than [pymetis](https://github.com/inducer/pymetis), [here](https://muyuuuu.github.io/2020/11/20/Metis/) is more details.
 
 # Document of how to implement
 
